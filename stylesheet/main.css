@@ -1,0 +1,61 @@
+
+#hide{
+  display: none;
+
+}
+#show{
+  display: block;
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+.numChances{
+  margin: 40px;
+}
+
+#invisible{
+  opacity: 0;
+}
+
+#visible{
+  opacity: 100;
+}
+
+img {
+  /* height: 10%; */
+}
+
+.hangman {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hangman img{
+  margin: 0 0;
+}
+
+button{
+  font-size: 24px;
+}
+.alpahabet {
+  margin: 24px 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.alpahabet button{
+  margin: 12px 8px;
+}
+
+button:disabled {
+  background-color: grey;
+}

@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <title>Hang Man</title>
+  <link rel="stylesheet" href="stylesheet/main.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+  <h1>Hang Man</h1>
+  <div>
+    <div class="hangman">
+      <img class="5" id="invisible" src="assets/head.jpg">
+    </div>
+
+    <div class="hangman">
+      <img class="3" id="invisible" src="assets/leftarm.jpg">
+      <img class="4" id="invisible" src="assets/body.jpg">
+      <img class="2" id="invisible" src="assets/rightarm.jpg">
+    </div>
+
+    <div class="hangman">
+      <img class="1" id="invisible" src="assets/leftleg.jpg">
+      <img class="0" id="invisible" src="assets/rightleg.jpg">
+    </div>
+
+  </div>
+
+  <div class="numChances"></div>
+  <span class="selectLetter" id="show">Select a letter</span>
+  <p class="alpahabet"></p>
+  <p class="gameover" id="hide"> game over </p>
+  <button class="tryAgain" id="hide">Play Again</button>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
