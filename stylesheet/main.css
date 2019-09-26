@@ -16,7 +16,7 @@ body{
 }
 
 .numChances{
-  margin: 40px;
+  margin: 20px;
 }
 
 #invisible{
@@ -45,7 +45,7 @@ button{
   font-size: 24px;
 }
 .alpahabet {
-  margin: 24px 500px;
+  margin: 24px 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
